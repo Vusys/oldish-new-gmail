@@ -1,0 +1,222 @@
+/* Fonts */
+* {
+    font-family: arial, sans-serif !important;
+    -moz-osx-font-smoothing: unset !important;
+}
+
+/* Compose button */
+.z0 > .L3 {
+    background-color: #d14836;
+    background-image: linear-gradient(to bottom, #dd4b39, #d14836);
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 2px;
+    height: 27px;
+    line-height: 27px;
+    box-shadow: none;
+    min-width: 70px;
+    text-align: center;
+    padding: 0px 21px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Hover effect - selector here is not quite right */
+.z0 > .L3.TI-I-JW, .z0 > .L3:hover {
+    box-shadow: none;
+    background-color: #d14836;
+    background-image: linear-gradient(to bottom, #dd4b39, #d14836) !important;
+}
+
+.z0 > .L3::before {
+    display: none !important;
+}
+
+/**
+ * SIDEBAR
+ */
+
+/* Old selected sidebar items */
+.nZ {
+    border-left: 4px solid #dd4b39;
+    background-color: transparent !important;
+}
+
+/* Remove border from Sidebar */
+.TK .TO {
+    border-radius: 0px !important;
+}
+
+/* Sidebar items? */
+.TO .nU > .n0,
+.TO.NQ .nU > .n0,
+.TO.nZ .nU > .n0,
+.ah9 > .CJ,
+.n3 > .CL > .CK {
+    font-size: 12.8px !important;
+}
+
+.TN {
+    height: 23px !important;
+}
+
+body[jscontroller] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio {
+    flex: inherit !important;
+}
+
+/* Counts - Inbox (XX) */
+div.aio div:last-child {
+    font-size: 12.8px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: black;
+    display: initial !important;
+}
+
+div.aio div:last-child:before {
+    content: "(";
+}
+
+div div.aio div:last-child:last-child:after {
+    content: ")";
+}
+
+/* selected color - count (1) */
+.ain .TO.nZ.aiq {
+    color: #dd4b39 !important;
+}
+
+/* Icons */
+.qj.qr {
+    display: none;
+}
+
+/*
+ * Email Listing
+ */
+.zA {
+    padding-bottom: 7px !important;
+    padding-top: 7px !important;
+}
+
+.zA:hover {
+    box-shadow: none !important;
+}
+
+/* From Name, Subject */
+.yW,
+.a4W {
+    letter-spacing: 0px !important;
+    font-size: 12.8px !important;
+}
+
+/* Read Emails */
+.yO {
+    background: rgba(243, 243, 243, .85);
+    color: #222;
+}
+
+/* Unread Emails */
+.zE {
+    color: #222;
+    background: rgba(255, 255, 255, .9);
+}
+
+/* Selected Emails */
+.x7 {
+    background: #ffc !important;
+}
+
+/** Tabs */
+
+/** Tab Container? */
+.aAA.J-KU-Jg-K9 {
+    /*     border-top: #D7D7D7 solid 1px !important; */
+}
+
+.aAy.aIf-aLe, /* Primary */
+.aAy.aKe-aLe, /* Social */
+.aAy.aJi-aLe, /* Promos */
+.aAy.aH2-aLe, /* Updates */
+.aAy.aHE-aLe /* Forums */
+{
+    /*
+    background: #F4F4F4 !important;
+    border-left: #D7D7D7 solid 1px !important;
+    */
+}
+
+/* Buttons */
+
+div.G-atb {
+    height: 40px;
+    padding-bottom: 11px;
+}
+
+/*
+.bzn .G-Ni{
+    background: #F4F4F4 !important;
+    border: #D7D7D7 solid 1px !important;
+    padding: 5px 20px !important;
+    margin-right: 25px !important;
+}
+*/
+
+.G-Ni > .T-I {
+    background: #F4F4F4 !important;
+    border: #D7D7D7 solid 1px !important;
+    padding: 14px 22px !important;
+}
+
+.G-tF > .G-Ni > .T-I,
+.SI .G-tF > .G-Ni > .T-I {
+    margin-right: 0px !important;
+    margin-left: -1px !important;
+}
+
+.G-Ni > .T-I:first-child {
+    margin-right: 15px !important;
+}
+
+.asa:before, .asa:after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
